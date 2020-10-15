@@ -1,11 +1,11 @@
 ---
 title: Craig Eric Simpkins
 role: Postdoctoral Fellow
-avatar_filename: img_6245.jpg
+avatar_filename: avatar.jpg
 organizations:
+  - name: Wilfrid Laurier University
   - name: University of Auckland
   - name: University of Göttingen
-  - name: Wilfrid Laurier University
 superuser: true
 authors:
   - admin

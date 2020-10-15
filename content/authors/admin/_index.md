@@ -1,4 +1,7 @@
 ---
+title: Craig Eric Simpkins
+role: Postdoctoral Fellow
+avatar_filename: img_6245.jpg
 organizations:
   - name: University of Auckland
   - name: University of Göttingen
@@ -6,8 +9,6 @@ organizations:
 superuser: true
 authors:
   - admin
-title: Craig Eric Simpkins
-role: Postdoctoral Fellow
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:

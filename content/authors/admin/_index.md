@@ -4,8 +4,6 @@ role: Postdoctoral Fellow
 avatar_filename: avatar.jpg
 organizations:
   - name: Wilfrid Laurier University
-  - name: University of Auckland
-  - name: University of Göttingen
 superuser: true
 authors:
   - admin

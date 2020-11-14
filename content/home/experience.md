@@ -18,27 +18,47 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Post-doctoral fellow"
+  company = "Wilfred Laurier University"
+  company_url = "https://www.wlu.ca/"
+  location = "Ontario, Canada"
+  date_start = "2020-10-18"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Develop an easy and fully repeatable workflow for complex ecological model components using the SpaDES framework
+  * Create, document and teach a set of coding standards
+  * Assist in the development of resource selection functions for forest caribou
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Data Scientist"
+  company = "The Warehouse Group"
+  company_url = "https://www.thewarehousegroup.co.nz/"
+  location = "Auckland, New Zealand "
+  date_start = "2019-06-01"
+  date_end = "2020-06-15"
+  description = """
+  * Developed geospatial models relating current and possible future retail store locations to customer locations
+  * Created RShiny applications to present model outcomes to non-expert stakeholders
+  * Assisted and advise colleagues with statistical analyses
+  """
+
+  [[experience]]
+  title = "Post-doctoral fellow"
+  company = "Georg-August University of Göttingen Department of Ecosystem Modelling"
+  company_url = "https://www.uni-goettingen.de/en/102170.html"
+  location = "Auckland, New Zealand "
+  date_start = "2017-06-01"
+  date_end = "2020-02-15"
+  description = """
+  * Modelled the effects of land-use transformations on the structure, persistence, and distribution of ecological communities over large spatial and temporal scales
+  * Developed tools (e.g. R packages) to help conduct complex ecological analyses
+  * Assisted in the successful defence and extension proposal for this project by the German Research Foundation (DFG)
+  * Published and presented work through journals and conferences
+  * Developed and taught several postgraduate level courses
+  * Supervised postgraduate student projects at the Masters and Doctoral levels
+  """
 
 +++

@@ -1,0 +1,217 @@
+% Encoding: UTF-8
+
+@ARTICLE{Simpkins2018-ze,
+  title    = "Assessing the performance of common landscape connectivity
+              metrics using a virtual ecologist approach",
+  author   = "Simpkins, C E and Dennis, T E and Etherington, T R and Perry, G L
+              W",
+  abstract = "\copyright{} 2017 Elsevier B.V. Due to increasing habitat
+              fragmentation and concern about its ecological effects, there has
+              been an upsurge in the use of landscape connectivity estimates in
+              conservation planning. Measuring connectivity is challenging,
+              resulting in a limited understanding of the efficacy of
+              connectivity estimation techniques and the conditions under which
+              they perform best. We evaluated the performance of four commonly
+              used connectivity metrics -- Euclidean distance; least-cost paths
+              (LCP) length and cost; and circuit theory's resistance distance
+              -- over a variety of simulated landscapes. We developed an
+              agent-based model simulating the dispersal of individuals with
+              different behavioural traits across landscapes varying in their
+              spatial structure. The outcomes of multiple dispersal attempts
+              were used to obtain `true' connectivity. These `true'
+              connectivity measures were then compared to estimates generated
+              using the connectivity metrics, employing the simulated
+              landscapes as cost-surfaces. The four metrics differed in the
+              strength of their correlation with true connectivity; resistance
+              distance showed the strongest correlation, closely followed by
+              LCP cost, with Euclidean distance having the weakest. Landscape
+              structure and species behavioural attributes only weakly
+              predicted the performance of resistance distance, LCP cost and
+              length estimates, with none predicting Euclidean distance's
+              efficacy. Our results indicate that resistance distance and LCP
+              cost produce the most accurate connectivity estimates, although
+              their absolute performance under different conditions is
+              difficult to predict. We emphasise the importance of testing
+              connectivity estimates against patterns derived from independent
+              data, such as those acquired from tracking studies. Our findings
+              should help to inform a more refined implementation of
+              connectivity metrics in conservation management.",
+  journal  = "Ecol. Modell.",
+  volume   =  367,
+  year     =  2018,
+  keywords = "Agent-based model; Circuit theory; Euclidean distance; Least-cost
+              modelling; Resistance; Simulated landscape"
+}
+
+@ARTICLE{Simpkins2017-py,
+  title    = "Understanding the impacts of temporal variability on estimates of
+              landscape connectivity",
+  author   = "Simpkins, C E and Perry, G L W",
+  abstract = "\copyright{} 2017 Elsevier Ltd Landscape connectivity estimates
+              are widely used to inform species conservation management.
+              However, although many landscapes and species behaviours change
+              over time, such as between seasons, the vast majority of studies
+              view connectivity as static. Calls have therefore been made to
+              use multiple connectivity estimates to adequately capture
+              periodic (e.g., seasonal) temporal changes. These periodic
+              temporal changes are also influenced by stochastic perturbations,
+              such as extreme weather events, and this variability is likely to
+              increase due to ongoing climate change. We aimed to investigate:
+              1) how variability interacts with periodic landscape changes to
+              alter connectivity estimates, and 2) how these alterations change
+              over longer time-periods. To achieve this we used a virtual
+              ecology approach in which we simulated 100 landscapes. Each
+              simulation ran for 20 seasons with the landscape experiencing
+              regular seasonal changes. Each simulation was then rerun five
+              times with increasing levels of variability super-imposed on the
+              seasonal dynamics. Connectivity for each landscape and every
+              season was calculated using least-cost paths modelling, and the
+              differences between connectivity estimates calculated. We found
+              that the variation in connectivity estimates between seasons
+              increased with temporal variability. Differences in connectivity
+              accumulated over time, meaning that as the variability increased
+              connectivity estimates changed more quickly and by larger
+              amounts. Our study demonstrates that increasing temporal
+              variability will become a challenge for the successful use of
+              static connectivity estimates.",
+  journal  = "Ecol. Indic.",
+  volume   =  83,
+  year     =  2017,
+  keywords = "Climate change; Land-cover change; Least-cost path; Seasonal;
+              Simulation experiment; Virtual ecology"
+}
+
+@ARTICLE{Simpkins2017-ht,
+  title   = "Effects of uncertain cost-surface specification on landscape
+             connectivity measures",
+  author  = "Simpkins, Craig E and Dennis, Todd E and Etherington, Thomas R and
+             Perry, George L W",
+  journal = "Ecol. Inform.",
+  year    =  2017
+}
+
+@ARTICLE{Simpkins2015-tk,
+  title     = "Effects of predation by introduced mammals and mortality due to
+               severe floods on population viability of the endangered Blue
+               Duck (Hymenolaimus malacorhynchos)",
+  author    = "Simpkins, Craig and Perry, George L W and Glaser, Andrew and
+               Allerby, Tim and Dennis, Todd E",
+  abstract  = "Predation by introduced species and anthropogenic climate change
+               now are two major threats to avifaunae worldwide. We developed
+               an age-structured, stochastic simulation model to perform a
+               population viability analysis for the Blue Duck, or Whio
+               (Hymenolaimus malacorhynchos), an endangered waterfowl endemic
+               to the upland rivers of New Zealand. Demographic responses to
+               six predator-control and flood-frequency scenarios were assessed
+               to examine projected trends in long-term population dynamics and
+               viability. A baseline analysis of abundance at current rates of
+               predation by introduced mammals and mortality due to severe
+               flood events indicated that the study population of Whio has
+               only a limited probability of persistence during the next 100
+               years. Importantly, we found that the additive effects of
+               population losses due to predation and a rising frequency of
+               floods (as predicted by general circulation models) increased
+               extinction risk by 69\%. Our study demonstrates the urgent need
+               for heightened control of invasive predators in Whio
+               conservation areas, as well as informed consideration of future
+               changes in regional climate patterns when planning management
+               actions for Whio and other similarly threatened riparian
+               species.",
+  journal   = "Emu",
+  publisher = "CSIRO PUBLISHING",
+  volume    =  115,
+  number    =  2,
+  pages     = "146--157",
+  month     =  may,
+  year      =  2015,
+  language  = "en"
+}
+
+@ARTICLE{Sciaini2018-bi,
+  title    = "{NLMR} and landscapetools : An integrated environment for
+              simulating and modifying neutral landscape models in {R}",
+  author   = "Sciaini, Marco and Fritsch, Matthias and Scherer, C{\'e}dric and
+              Simpkins, Craig Eric",
+  editor   = "Golding, Nick",
+  abstract = "Abstract Neutral landscape models (NLMs) simulate landscape
+              patterns based on theoretical distributions and can be used to
+              systematically study the effect of landscape structure on
+              ecological processes. NLMs are commonly used in landscape ecology
+              to enhance the findings of field studies as well as in simulation
+              studies to provide an underlying landscape. However, their
+              creation so far has been limited to software that is platform
+              dependent, does not allow a reproducible workflow or is not
+              embedded in R, the prevailing programming language used by
+              ecologists. Here, we present two complementary R packages NLMR
+              and landscapetools, that allow users to generate and manipulate
+              NLMs in a single environment. They grant the simulation of the
+              widest collection of NLMs found in any single piece of software
+              thus far while allowing for easy manipulation in a self-contained
+              and reproducible workflow. The combination of both packages
+              should stimulate a wider usage of NLMs in ecology. NLMR is a
+              comprehensive collection of algorithms with which to simulate
+              NLMs. landscapetools provides a utility toolbox which facilitates
+              an easy workflow with simulated neutral landscapes and other
+              raster data. We show two example applications that illustrate
+              potential use cases for NLMR and landscapetools: First, an
+              agent-based simulation study in which the effect of spatial
+              structure on disease persistence was studied. The second example
+              shows how increases in spatial scaling can introduce biases in
+              calculated landscape metrics. Simplifying the workflow around
+              generating and handling NLMs should encourage an uptake in the
+              usage of NLMs. NLMR and landscapetools are both generic
+              frameworks that can be used in a variety of applications and are
+              a further step to having a unified simulation environment in R
+              for answering spatial research questions.",
+  journal  = "Methods Ecol. Evol.",
+  volume   =  9,
+  number   =  11,
+  pages    = "2240--2248",
+  month    =  nov,
+  year     =  2018
+}
+
+@ARTICLE{Simpkins2018-tc,
+  title     = "Population viability analyses in New Zealand: a review",
+  author    = "Simpkins, Craig E and Lee, Finnbar and Powers, Breanna F and
+               Anderson, Sandra and Asena, Quinn and Brock, James M R and
+               Perry, George L W",
+  abstract  = "[Biodiversity assets often require conservation management,
+               which, in turn, necessitates decisions about which ecosystem,
+               community or species should be prioritised to receive resources.
+               Population viability analysis (PVA) uses a suite of quantitative
+               methods to estimate the likelihood of population decline and
+               extinction for a given species, and can be used to assess a
+               population's status, providing useful information to
+               decision-makers. In New Zealand, a range of taxa have been
+               analysed using the PVA approach, but the scope of its
+               implementation has not previously been reviewed. We compiled a
+               database of 78 published PVAs for New Zealand indigenous fauna
+               and flora, along with details of the species considered, the
+               data used to parametrise the model, and the technical details of
+               their implementation. We assessed the taxa and threat status of
+               the species for which PVA were conducted relative to the
+               distribution of taxa across threat classes in the New Zealand
+               Threat Classification System database. There were clear biases
+               in the species selected for analysis, notably an
+               over-representation of birds and threatened species in general,
+               and an under-representation of invertebrates and plants. Model
+               parameterisation and implementation were often not reported in a
+               transparent or standardised way, which hinders model
+               communication and reconstruction. To maximise the benefit of
+               PVAs, we suggest that more attention should be given to the
+               ecosystem-level importance of species, and to species whose
+               threat status is changing rapidly or are not yet threatened.
+               More clearly describing the parameterisation, underlying
+               assumptions and implementation of PVAs will help to better
+               contextualise their results and support reproducible ecological
+               science and decision-making.]",
+  journal   = "N. Z. J. Ecol.",
+  publisher = "New Zealand Ecological Society",
+  volume    =  42,
+  number    =  2,
+  pages     = "107--115",
+  year      =  2018
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
